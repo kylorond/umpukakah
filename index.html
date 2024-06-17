@@ -1,0 +1,910 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Pu'ak Galery</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- icons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <h1 class="sitename">PU'AK</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#activities">Activities</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#team">Team</a></li>
+          <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li> -->
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+      <div class="toggle">
+        <input type="checkbox" id="theme-toggle" hidden>
+        <label for="theme-toggle" class="theme-toggle"></label>
+      </div>
+      
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="zoom-out">
+            <h1 class="">Pu'ak Galery</h1>
+            <p class="">We Saw, We Came, We Conquered.</p>
+            <div class="d-flex">
+              <a href="assets/vid/asik.mp4" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- Clients Section -->
+    <section id="clients" class="clients section">
+
+      <div class="container" data-aos="zoom-in">
+
+        <div class="swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 40
+                },
+                "480": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 60
+                },
+                "640": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 80
+                },
+                "992": {
+                  "slidesPerView": 5,
+                  "spaceBetween": 120
+                },
+                "1200": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 120
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-9.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-10.png" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-11.png" class="img-fluid" alt=""></div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Clients Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2 class="">About Us</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
+            <p>
+              Pu'ak atau umpu kakah merupakan perkumpulan 7 pemuda ma'anyan di STMIK Palangkaraya yang mencakupi beberapa aktivitas dibawah ini:
+            </p>
+            <ul>
+              <li><i class="bi bi-check2-circle"></i> <span>Kuliah.</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Nongkrong.</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Ibadah.</span></li>
+              <li><i class="bi bi-check2-circle"></i> <span>Olahraga.</span></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <p>We serve with wholehearted dedication and full responsibility. Our courteous approach ensures mutual respect and excellence in all that we do at Pu'ak. </p>
+            <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Qq Section -->
+    <section id="qq" class="section why-us" data-builder="section">
+
+      <div class="container-fluid">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
+
+            <div class="content px-xl-5" data-aos="fade-up" data-aos-delay="100">
+              <h3 class=""><span class="">Quick </span><strong>questions?</strong></h3>
+            </div>
+
+            <div class="faq-container px-xl-5" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="faq-item">
+
+                <h3><span>1.</span>satu tambah satu berapa bang?</h3>
+                <div class="faq-content">
+                  <p>YA DUA LAH TOLOL.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span>2.</span>apa bedanya bangun jam 10 pagi dengan kamu?</h3>
+                <div class="faq-content">
+                  <p>kalau bangun jam 10 pagi itu kesiangan, kalau kamu itu kesayangan...huhayammm.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span>3.</span>Tempat favorit nongkrong?</h3>
+                <div class="faq-content">
+                  <p>Dekam alias depan kampus.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-5 order-1 order-lg-2 why-us-img">
+            <img src="assets/img/why-us.png" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Qq Section -->
+
+    <!-- do Section -->
+    <section id="do" class="skills section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row">
+
+          <div class="col-lg-6 d-flex align-items-center">
+            <img src="assets/img/skills.jpg" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-6 pt-4 pt-lg-0 content">
+
+            <h3>What We Do?</h3>
+            <div class="skills-content skills-animation">
+
+              <div class="progress">
+                <span class="skill"><span>Kuliah</span> <i class="val">15%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End do Item -->
+              
+              <div class="progress">
+                <span class="skill"><span>Nongkrong</span> <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End do Item -->
+              
+              <div class="progress">
+                <span class="skill"><span>Ibadah</span> <i class="val">70%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End do Item -->
+              
+              <div class="progress">
+                <span class="skill"><span>Olahraga</span> <i class="val">25%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div><!-- End do Item -->
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /do Section -->
+
+    <section id="activities" class="services section"> <!-- activities Section -->
+
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Activities</h2>
+      </div>
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-activity icon"></i></div>
+              <h4><a href="#activities" class="stretched-link">Kuliah</a></h4>
+              <p>Karena sekarang sudah semester 8 dan 12, sudah tidak ada lagi mata kuliah, ke kampus cuman untuk konsultasi TA</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
+              <h4><a href="#activities" class="stretched-link">Nongkrong</a></h4>
+              <p>Keseharian kami nongkrong membahas topik duniawi dan tempat favorit adalah dekam atau depan kampus</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
+              <h4><a href="#activities" class="stretched-link">Ibadah</a></h4>
+              <p>Hari Minggu juga kami rutin ibadah di GKE Sinar Kasih/Sakatik/Agape bahkan Katedral</p>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-broadcast icon"></i></div>
+              <h4><a href="#activities" class="stretched-link">Olahraga</a></h4>
+              <p>Tidak lupa juga berolahraga, seperti gym dan badminton agar tubuh tetap bugar</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /activities Section -->
+
+    <!-- Quotes Section -->
+    <section id="quotes" class="call-to-action section">
+
+      <img src="assets/img/cta-bg.jpg" alt="">
+
+      <div class="container">
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-9 text-center text-xl-start">
+            <h3>Quotes</h3>
+            <p>"Jika Anda menemukan diri Anda dalam perahu yang bocor terus-menerus, energi yang digunakan untuk mengganti kapal kemungkinan akan lebih produktif daripada energi yang digunakan untuk memperbaiki kebocoran."</p>
+            <p>-Warren Buffet</p>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Quotes Section -->
+
+    <!-- Events Section -->
+    <section id="events" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Events</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">Seminar</li>
+            <li data-filter=".filter-product">Sidang</li>
+          </ul><!-- End Events Filters -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/seminar/jeli1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Seminar - Jeli Krisna</h4>
+                <p>C2057201023</p>
+                <a href="assets/img/seminar/jeli1.jpg" title="Seminar - Jeli Krisna" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="seminar-jeli.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Events Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/seminar/ronal1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Seminar - Ronaldo Dwi Anaku Aminu</h4>
+                <p>C2057201032</p>
+                <a href="assets/img/seminar/ronal1.jpg" title="Seminar - Ronaldo Dwi Anaku Aminu" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="seminar-ronal.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Events Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/sidang/ronal1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Sidang - Ronaldo Dwi Anaku Aminu</h4>
+                <p>C2057201032</p>
+                <a href="assets/img/sidang/ronal1.jpg" title="Sidang - Ronaldo Dwi Anaku Aminu" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="sidang-ronal.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Events Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/seminar/abe1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Seminar - Abe Pangemanan</h4>
+                <p>C1857201058</p>
+                <a href="assets/img/seminar/abe1.jpg" title="Seminar - Abe Pangemanan" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="seminar-abe.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Events Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/seminar/lai1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Seminar - Kristian Lai Tare</h4>
+                <p>C2057201029</p>
+                <a href="assets/img/seminar-lai1.jpg" title="Thesis 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="seminar-lai.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Events Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/sidang/jeli1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Sidang - Jeli Krisna</h4>
+                <p>C2057201023</p>
+                <a href="assets/img/sidang/jeli1.jpg" title="Sidang - Jeli Krisna" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="sidang-jeli.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Events Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/sidang/abe1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Sidang - Abe Pangemanan</h4>
+                <p>C1857201058</p>
+                <a href="assets/img/sidang/abe1.jpg" title="Sidang - Abe Pangemanan" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="sidang-abe.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Events Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/sidang/loading.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Sidang - Krstian Lai Tare</h4>
+                <p>C2057201029</p>
+                <a href="assets/img/loading.jpg" title="Sidang - Kristian Lai Tare" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="sidang-lai.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Events Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/seminar/loading.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Seminar - Kristianarco Utama Putra</h4>
+                <p>C20572010</p>
+                <a href="assets/img/loading.jpg" title="Seminar - Kristianarco Utama Putra" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="seminar-kristian.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Events Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/seminar/loading.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Seminar - Daniel</h4>
+                <p>C20572010</p>
+                <a href="assets/img/loading.jpg" title="Seminar - Daniel" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="seminar-daniel.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Events Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+              <img src="assets/img/seminar/loading.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Seminar - Bravo Teguh Sabarno</h4>
+                <p>C20572010</p>
+                <a href="assets/img/loading.jpg" title="Seminar - Bravo Teguh Sabarno" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="seminar-bravo.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Events Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/sidang/loading.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Sidang - Krstianarco Utama Putra</h4>
+                <p>C20572010</p>
+                <a href="assets/img/loading.jpg" title="Sidang - Kristianarco Utama Putra" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="sidang-kristian.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Events Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/sidang/loading.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Sidang - Daniel</h4>
+                <p>C20572010</p>
+                <a href="assets/img/loading.jpg" title="Sidang - Daniel" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="sidang-daniel.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Events Item -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+              <img src="assets/img/sidang/loading.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Sidang - Bravo Teguh Sabarno</h4>
+                <p>C20572010</p>
+                <a href="assets/img/loading.jpg" title="Sidang - Bravo Teguh Sabarno" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                <a href="sidang-bravo.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+              </div>
+            </div><!-- End Events Item -->
+
+          </div><!-- End Events Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Events Section -->
+
+    <!-- Team Section -->
+    <section id="team" class="team section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Team</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Ronaldo Dwi Anaku Aminu</h4>
+                <span>Chief Executive Officer</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/baronnnd_/"><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Jeli Krisna</h4>
+                <span>Product Manager</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/krss_naaa/"><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Kristian Lai Tare</h4>
+                <span>CTO</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/kristian_lai_tare/"><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/team-4.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Abe Pangemanan</h4>
+                <span>Accountant</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/abe_gamar20/"><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/team-5.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Kristianarco Utama Putra</h4>
+                <span>IT Support</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/kristiann_175/"><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/team-6.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Daniel</h4>
+                <span>Customer Support</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/daniel.djanguk/"><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member d-flex align-items-start">
+              <div class="pic"><img src="assets/img/team/team-7.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Bravo Teguh Sabarno</h4>
+                <span>Technical Support</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.instagram.com/bravoshuget.01/"><i class="bi bi-instagram"></i></a>
+                  <a href=""> <i class="bi bi-linkedin"></i> </a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Team Section -->
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Testimonials</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              }
+            }
+          </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Tim Cook</h3>
+                <h4>CEO Apple</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>terima kasih udah bantu buatkan iPhone 20 pro maag.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Elon Musk</h3>
+                <h4>Founder, CTO & CEO SpaceX</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>gacor kang, akhirnya saya bisa lulus 3 tahun setengah.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Testimonials Section -->
+
+    <!-- Faq 2 Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-5">
+
+            <div class="info-wrap">
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+                <i class="bi bi-geo-alt flex-shrink-0"></i>
+                <div>
+                  <h3>Address</h3>
+                  <p>Jl. George Obos No.114</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+                <i class="bi bi-telephone flex-shrink-0"></i>
+                <div>
+                  <h3>Call Us</h3>
+                  <p>911</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                <i class="bi bi-envelope flex-shrink-0"></i>
+                <div>
+                  <h3>Email Us</h3>
+                  <p>puak@umpukakah.com</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d996.7001744907292!2d113.8960868192679!3d-2.2285423545403353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dfcb24d52a09ec1%3A0xe7c3239b44b1d826!2sSTMIK%20Palangkaraya!5e0!3m2!1sen!2sus!4v1717638647977!5m2!1sen!2sus" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <label for="name-field" class="pb-2">Your Name</label>
+                  <input type="text" name="name" id="name-field" class="form-control" required="">
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email-field" class="pb-2">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="subject-field" class="pb-2">Subject</label>
+                  <input type="text" class="form-control" name="subject" id="subject-field" required="">
+                </div>
+
+                <div class="col-md-12">
+                  <label for="message-field" class="pb-2">Message</label>
+                  <textarea class="form-control" name="message" rows="10" id="message-field" required=""></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-6">
+            <h4>Join Our Newsletter</h4>
+            <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+            <form action="forms/newsletter.php" method="post" class="php-email-form">
+              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="d-flex align-items-center">
+            <span class="sitename">Pu'ak</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p>Jl. George Obos No.114</p>
+            <p>Palangka Raya, 73111</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>911</span></p>
+            <p><strong>Email:</strong> <span>puak@umpukakah.com</span></p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <h4>Follow Us</h4>
+          <p>simamuti simamureh biar follower utit asal puang nafollow ereh.</p>
+          <div class="social-links d-flex">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">Pu'ak</strong> <span>All Rights Reserved</span></p>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

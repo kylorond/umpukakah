@@ -38,11 +38,11 @@
 /* Nav Menu Colors */
 :root {
   /* Nav Color - This is the default color of the main navmenu links. */
-  --nav-color: #ffffff;
+  --nav-color: #000000;
 
   /* Nav Hover Color - This color is applied to main navmenu links when they are hovered over. */
-  --nav-hover-color: #FFDB00;
-
+  --nav-hover-color: #C40C0C;
+  
   /* Nav Dropdown Background Color - This color is used as the background for dropdown boxes that appear when hovering over primary navigation items. */
   --nav-dropdown-background-color: #ffffff;
 
@@ -57,8 +57,8 @@
 :root {
   --hero-background-color: #ffffff;
   --hero-color: #000000;
-  --bg-toggle: #ffffff;
-  --toggle: #000000;
+  --bg-toggle: #000000;
+  --toggle: #ffffff;
 }
 
 /* Smooth scroll */
@@ -69,8 +69,8 @@
 .dark{
   --background-color: #000000;
   --default-color: #ffffff;
-  --nav-color: #000000;
-  --nav-hover-color: #C40C0C;
+  --nav-color: #ffffff;
+  --nav-hover-color: #FFDB00;
   --heading-color: #ffffff;
   --accent-color: #ffffff;
   --contrast-color: #000000;
@@ -79,8 +79,8 @@
   --nav-dropdown-background-color: #000000;
   --nav-dropdown-color: #ffffff;
   --nav-dropdown-hover-color: #FFDB00;
-  --bg-toggle: #000000;
-  --toggle: #ffffff;
+  --bg-toggle: #ffffff;
+  --toggle: #000000;
 }
 
 /*--------------------------------------------------------------
@@ -117,9 +117,9 @@ h6 {
 # Global Header
 --------------------------------------------------------------*/
 .header {
-  --heading-color: var(--contrast-color);
-  color: var(--background-color);
-  background-color: var(--default-color);
+  --heading-color: var(--default-color);
+  color: var(--default-color);
+  background-color: var(--background-color);
   padding: 15px 0;
   transition: all 0.5s;
   z-index: 997;
@@ -197,8 +197,8 @@ h6 {
 /* Index Page Header
 ------------------------------*/
 .index-page .header {
-  background-color: var(--default-color);
-  color: var(--background-color);
+  background-color: var(--background-color);
+  color: var(--default-color);
   /* --background-color: rgba(255, 255, 255, 0);
   --heading-color: #ffffff;
   --nav-color: #ffffff; */
@@ -207,7 +207,7 @@ h6 {
 /* Index Page Header on Scroll
 ------------------------------*/
 .index-page.scrolled .header {
-  --background-color: black;
+  background-color: var(--background-color);
 }
 
 /*--------------------------------------------------------------
